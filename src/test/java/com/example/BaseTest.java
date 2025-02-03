@@ -18,10 +18,13 @@ import java.time.Duration;
 public class BaseTest {
 
     protected WebDriver driver;
+    protected WebDriver driverTwo;
     public long beforeTime = System.nanoTime();
     public long afterTime = System.nanoTime();
     public String username = ApplicationProperties.INSTANCE.getUsername();
     public String password = ApplicationProperties.INSTANCE.getPassword();
+    public String usernameTwo = ApplicationProperties.INSTANCE.getUsernameTwo();
+    public String passwordTwo = ApplicationProperties.INSTANCE.getPasswordTwo();
 
     Logger log = LoggerFactory.getLogger(BaseTest.class);
 
@@ -46,8 +49,22 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions option = new ChromeOptions();
         option.addArguments("--remote-allow-origins=*");
-//        option.addArguments("--headless=new");
+        option.addArguments("--headless=new");
         driver = new ChromeDriver(option);
+//        driverTwo = new ChromeDriver(option);
         return driver;
+
     }
+
+    public WebDriver getWebDriverTwo() {
+
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("--remote-allow-origins=*");
+//        option.addArguments("--headless=new");
+        driverTwo = new ChromeDriver(option);
+        return driverTwo;
+
+    }
+
 }

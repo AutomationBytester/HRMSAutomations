@@ -19,7 +19,7 @@ public class leaveCalendarTest extends BaseTest {
 
     @Test
     @Parameters("url")
-    public void leaveRequest(@Optional String url) throws InterruptedException {
+    public void leaveCalendar(@Optional String url) throws InterruptedException {
         log.info("test started");
         WebDriver driver = getWebDriver();
 

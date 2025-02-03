@@ -1,6 +1,7 @@
 package com.example.tests;
 
 import com.example.BaseTest;
+import com.example.pages.employeesPagesAdmin.employmentStatusPage;
 import com.example.pages.loginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -10,39 +11,34 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class loginTest extends BaseTest {
+public class employmentStatusTest extends BaseTest{
 
     private com.example.pages.loginPage loginPage;
+    private com.example.pages.employeesPagesAdmin.employmentStatusPage employmentStatusPage;
     private Logger log = LoggerFactory.getLogger(loginTest.class);
 
     @Test
     @Parameters("url")
-    public void FirstTest(@Optional String url) throws InterruptedException {
+    public void EmploymentStatus(@Optional String url) throws InterruptedException {
+
         log.info("test started");
-        WebDriver driver = getWebDriver();
-
-        loginPage = new loginPage(driver, url);
-        loginPage.login(username, password);
-
-
-        Thread.sleep(3000);
 
         WebDriver driverTwo = getWebDriverTwo();
 
         loginPage = new loginPage(driverTwo, url);
         loginPage.login(usernameTwo, passwordTwo);
 
-        driverTwo.close();
-        driverTwo.quit();
+        employmentStatusPage = new employmentStatusPage(driverTwo);
+        employmentStatusPage.employmentStatus();
 
     }
 
     @AfterTest
     public void afterTest() {
         log.info("test completed");
-        if (driver != null) {
-            driver.close();
-            driver.quit();
+        if (driverTwo != null) {
+            driverTwo.close();
+            driverTwo.quit();
         }
     }
 }

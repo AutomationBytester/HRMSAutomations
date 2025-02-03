@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite">
     <test name="Test" parallel="classes" thread-count="5">
-        <parameter name="url" value="https://payday.infowindtech.biz/admin/users/login"> </parameter>
+        <parameter name="url" value="https://payday.infowindtech.us/"> </parameter>
         <classes>
             <class name="com.example.tests.homeTest"/>
             <class name="com.example.tests.loginTest"/>
             <class name="com.example.tests.profileScreenTest"/>
             <class name="com.example.tests.profileTest"/>
+            <class name="com.example.tests.activityLogTest"/>
+            <class name="com.example.tests.allEmployeeTest"/>
+            <class name="com.example.tests.appSettingsTest"/>
+            <class name="com.example.tests.attendanceDailyLogTest"/>
+            <class name="com.example.tests.attendanceDetailsTest"/>
+            <class name="com.example.tests.attendanceRequestTest"/>
+            <class name="com.example.tests.attendanceSettingTest"/>
+            <class name="com.example.tests.attendanceSummaryTest"/>
+            <class name="com.example.tests.dashBoardTestAdmin"/>
+            <class name="com.example.tests.designationTest"/>
+            <class name="com.example.tests.employmentStatusTest"/>
+            <class name="com.example.tests.holidayTest"/>
+            <class name="com.example.tests.jobDeskTest"/>
+            <class name="com.example.tests.leaveCalendarTest"/>
+            <class name="com.example.tests.leaveRequestTest"/>
+            <class name="com.example.tests.leaveSettingsTest"/>
+            <class name="com.example.tests.leaveStatusTest"/>
+            <class name="com.example.tests.leaveTest"/>
+            <class name="com.example.tests.payrollSettingTest"/>
+            <class name="com.example.tests.importTest"/>
+
         </classes>
     </test>
 </suite>

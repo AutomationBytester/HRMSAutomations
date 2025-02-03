@@ -7,33 +7,17 @@
     <list default="true" id="7cf39c24-a9cc-40ee-a1cd-add9643f3317" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/attendanceDailyLogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/attendancePages/attendanceDailyLogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/attendanceRequestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/attendancePages/attendanceRequestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/jobDeskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/jobDeskPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/leaveCalendarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/leavePages/leaveCalendarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/leavePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/leavePages/leavePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/leaveRequestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/leavePages/leaveRequestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/leaveStatusPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/leavePages/leaveStatusPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/loginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/logoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/logoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/profilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/sidePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/sidePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/LeaveRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/LeaveRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceDailyLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceDailyLogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/homeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/homeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/jobDeskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/jobDeskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveCalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveCalendarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveStatusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/leaveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/attendanceSettingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/settingsPagesAdmin/attendanceSettingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/appSettingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/appSettingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceSettingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/attendanceSettingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/dashBoardTestAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/dashBoardTestAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/importTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/importTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/profileScreenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/profileScreenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/profileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/profileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utils/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/utils/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendanceRequestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/attendanceRequestPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/loginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/payrollSettingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/payrollSettingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/dashBoardTestAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/dashBoardTestAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/importTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/importTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/loginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/tests/payrollSettingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/tests/payrollSettingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,51 +44,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.InfowindsHRMS [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml.executor": "Run",
-    "TestNG.LeaveRequestTest.executor": "Run",
-    "TestNG.LeaveRequestTest.leaveRequest.executor": "Run",
-    "TestNG.LoginTest.FirstTest.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.activityLogTest.activityLog.executor": "Run",
-    "TestNG.attendanceDailyLogTest.executor": "Run",
-    "TestNG.attendanceDailyLogTest.leaveRequest.executor": "Run",
-    "TestNG.attendanceDetailsTest.attendanceRequest.executor": "Run",
-    "TestNG.attendanceRequestTest.attendanceRequest.executor": "Run",
-    "TestNG.attendanceSummaryTest.executor": "Run",
-    "TestNG.holidayTest.activityLog.executor": "Run",
-    "TestNG.homeTest.executor": "Run",
-    "TestNG.homeTest.homePageTest.executor": "Run",
-    "TestNG.jobDeskTest.executor": "Run",
-    "TestNG.jobDeskTest.jobDeskPageTest.executor": "Run",
-    "TestNG.leaveCalendarTest.executor": "Run",
-    "TestNG.leaveStatusTest.executor": "Run",
-    "TestNG.leaveTest.leaveTabTest.executor": "Run",
-    "TestNG.loginTest.FirstTest.executor": "Run",
-    "TestNG.loginTest.executor": "Run",
-    "TestNG.profileScreenTest.executor": "Run",
-    "TestNG.profileScreenTest.homePageTest.executor": "Run",
-    "TestNG.profileTest.executor": "Run",
-    "TestNG.profileTest.homePageTest.executor": "Run",
-    "git-widget-placeholder": "InfowindUpdate",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mahen/IdeaProjects/HRMSAutomation",
-    "onboarding.tips.debug.path": "C:/Users/mahen/IdeaProjects/InfowindsHRMS/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.InfowindsHRMS [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/mahen/IdeaProjects/HRMSAutomation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/mahen/IdeaProjects/InfowindsHRMS/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LeaveRequestTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LeaveRequestTest.leaveRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.activityLogTest.activityLog.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.allEmployeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.allEmployeeTest.homePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.appSettingsTest.Designation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.appSettingsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceDailyLogTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceDailyLogTest.leaveRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceDetailsTest.attendanceDetails.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceDetailsTest.attendanceRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceRequestTest.attendanceRequest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceRequestTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceSettingTest.AttendanceSetting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceSettingTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.attendanceSummaryTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dashBoardTestAdmin.homePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.designationTest.Designation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.designationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.employmentStatusTest.EmploymentStatus.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.employmentStatusTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.holidayTest.activityLog.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.homeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.homeTest.homePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.importTest.PayrollSetting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.importTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.jobDeskTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.jobDeskTest.jobDeskPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveCalendarTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveCalendarTest.leaveCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveSettingsTest.LeaveSettings.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveSettingsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveStatusTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveStatusTest.leaveTabTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.leaveTest.leaveTabTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.loginTest.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.payrollSettingTest.PayrollSetting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.profileScreenTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.profileScreenTest.homePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.profileTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.profileTest.homePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;userAdminTest&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mahen/IdeaProjects/untitled&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mahen/IdeaProjects/InfowindsHRMS/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\main\resources" />
       <recent name="C:\Users\mahen\IdeaProjects\InfowindsHRMS\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.attendanceDailyLogTest">
-    <configuration name="attendanceDailyLogTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/mahen/IdeaProjects/HRMSAutomation/testng.xml">
+    <configuration name="C:/Users/mahen/IdeaProjects/HRMSAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InfowindsHRMS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="attendanceRequestTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +129,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.attendanceDailyLogTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.attendanceRequestTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -121,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="holidayTest.activityLog" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="attendanceRequestTest.attendanceRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +146,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.holidayTest" />
-      <option name="METHOD_NAME" value="activityLog" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.attendanceRequestTest" />
+      <option name="METHOD_NAME" value="attendanceRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="leaveStatusTest.leaveTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InfowindsHRMS" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +164,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.homeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.leaveStatusTest" />
+      <option name="METHOD_NAME" value="leaveTabTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,31 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginTest.FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InfowindsHRMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.loginTest" />
-      <option name="METHOD_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.attendanceDailyLogTest" />
-        <item itemvalue="TestNG.homeTest" />
+        <item itemvalue="TestNG.C:/Users/mahen/IdeaProjects/HRMSAutomation/testng.xml" />
         <item itemvalue="TestNG.loginTest" />
-        <item itemvalue="TestNG.loginTest.FirstTest" />
-        <item itemvalue="TestNG.holidayTest.activityLog" />
+        <item itemvalue="TestNG.leaveStatusTest.leaveTabTest" />
+        <item itemvalue="TestNG.attendanceRequestTest.attendanceRequest" />
+        <item itemvalue="TestNG.attendanceRequestTest" />
       </list>
     </recent_temporary>
   </component>

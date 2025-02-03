@@ -21,14 +21,29 @@ public class profileTest extends BaseTest {
     @Parameters("url")
     public void homePageTest(@Optional String url) throws InterruptedException {
         log.info("test started");
+//
+//        WebDriver driver = getWebDriver();
+//
+//        loginPage = new loginPage(driver, url);
+//        loginPage.login(username, password);
+//
+//        profilePage = new profilePage(driver);
+//        profilePage.profileScreenPage();
+//
+//        driver.quit();
+//
+//        Thread.sleep(3000);
 
-        WebDriver driver = getWebDriver();
+        WebDriver driverTwo = getWebDriverTwo();
 
-        loginPage = new loginPage(driver, url);
-        loginPage.login(username, password);
+        loginPage = new loginPage(driverTwo, url);
+        loginPage.login(usernameTwo, passwordTwo);
 
-        profilePage = new profilePage(driver);
+        profilePage = new profilePage(driverTwo);
         profilePage.profileScreenPage();
+
+        driverTwo.close();
+        driverTwo.quit();
 
     }
 

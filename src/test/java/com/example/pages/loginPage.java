@@ -33,6 +33,12 @@ public class loginPage extends BasePage {
             getWebDriver().get(url);
         }
 
+        if (url == null) {
+            getWebDriver().get(ApplicationProperties.INSTANCE.getBaseUrlTwo());
+        } else {
+            getWebDriver().get(url);
+        }
+
     }
 
     public void login(String username, String password) throws InterruptedException {

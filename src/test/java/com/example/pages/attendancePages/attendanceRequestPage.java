@@ -3,6 +3,7 @@ package com.example.pages.attendancePages;
 import com.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -48,16 +49,16 @@ public class attendanceRequestPage extends BasePage {
         waitWebElement(requestAttendanceButton, driver);
         requestAttendanceButton.click();
 
-        waitWebElement(dateDropDown, driver);
-        dateDropDown.click();
+//        waitWebElement(dateDropDown, driver);
+//        dateDropDown.click();
 
-        waitWebElement(time, driver);
-        Select select = new Select(time);
-        select.selectByVisibleText("11:00");
+//        waitWebElement(time, driver);
+//        Select select = new Select(time);
+//        select.selectByVisibleText("11:00");
 
-        waitWebElement(date, driver);
-        date.click();
-
+//        waitWebElement(date, driver);
+//        date.click();
+//
 //        Actions actions = new Actions(driver);
 //        actions.moveToElement(time).click().perform();
         Thread.sleep(3000);
